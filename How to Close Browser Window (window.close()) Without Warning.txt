@@ -1,0 +1,13 @@
+Javascript: How to Close Browser Window (window.close()) Without Warning
+
+There is function window.close() in javascript to close browser window. If we call it from the main browser window (not the one opened with window.open()) - we get:
+
+"The page is trying to close the window" warning message.
+
+This warning message shows up every time one tries to close browser window with window.close() function. It seems impossible to close the most outer main browser window and not to get this message.
+
+But wait... window.close() function implementation is just so simple. It checks window.opener. If "opener" equals empty string it suspects that we talk about parent window (not the one that was opened with window.open(...)) and pop-ups warning. And it is easy to work around:
+
+< a href="javascript:window.opener='x';window.close();">Close< /a>
+
+If you want to catch browser-close event - see javascript: close browser event tip.

@@ -1,0 +1,227 @@
+﻿/* Body Style Sheet */
+.body1 {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px; 
+	text-decoration:none;
+}
+.bodyCenter {
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-right: 100px;
+	margin-bottom: 100px; 
+	text-decoration:none;
+}
+/* Table Style Sheet */
+.tblBorder1 {
+	BORDER-LEFT: #2468bf thin solid;
+	BORDER-BOTTOM-COLOR: #2468bf;
+	BORDER-BOTTOM-STYLE: solid;
+	BORDER-BOTTOM: #2468bf thin solid;
+	BORDER-TOP: #2468bf thin solid;
+	BORDER-RIGHT: #2468bf thin solid;
+}
+/* Table Background Color */
+.tblBackground
+{	background-color:#d6dff7;
+	BORDER-LEFT: #52ace8 thin solid;
+	BORDER-BOTTOM-COLOR: #52ace8;
+	BORDER-BOTTOM-STYLE: solid;
+	BORDER-BOTTOM: #52ace8 thin solid;
+	BORDER-TOP: #52ace8 thin solid;
+	BORDER-RIGHT: #52ace8 thin solid;
+}
+/* Change Background of row & text color white in bold */
+.tblHeading {
+	background-color:#d6dff7; 
+	font-family: Verdana,sans-serif;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-indent :1px;
+	text-decoration :none; 
+}
+/* Table Filter background */
+.tblBg  {
+    filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#dee8f6', startColorstr='#5b7b9d', gradientType='0');
+    font-family: Verdana,sans-serif;
+	color: Black;
+	font-size: 12px;
+	font-weight: bold;
+	text-indent :1px;
+	text-decoration:none; 
+}
+
+.tblBg1 {
+    background-color:#e9eaea;
+    font-family: Verdana,sans-serif;
+	color: Black;
+	font-size: 12px;
+	font-weight: bold;
+	text-indent :1px;
+	text-decoration :none; 
+}
+/* Table Filter background */
+.tblBgHeader  {
+    filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#5b7b9d', startColorstr='#5b7b9d', gradientType='0');
+    font-family: Verdana,sans-serif;
+	color: White;
+	font-size: 12px;
+	font-weight: bold;
+	text-indent :1px;
+	text-decoration :none; 
+}
+.grdBg  {
+    filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#FFFFFF', startColorstr='#C7E0FE', gradientType='0');
+    font-family: Verdana;
+    color :black;
+    font-size: 12px;
+    font-weight: normal;
+    
+}
+/* Text Style Sheet */
+.textNormal {
+	font-family: Arial, Helvetica, sans-serif;
+	color :black;
+	font-size: 12px;
+	font-weight: normal;
+}
+/* Only Set the Text Color white & bold */
+.textHeading {
+	font-family: Verdana,sans-serif;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-indent :1px;
+	text-decoration :none;
+}
+.textBlack {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+	text-indent :5px;
+}
+.error {
+	font-family: Arial, Helvetica, sans-serif;
+	color :red;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/* Button Style Sheet */
+.button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left:8px;
+}
+
+/* Links Style Sheet */
+.linkMain {
+	COLOR: Blue;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 14px;
+	font-weight: bold;
+	text-decoration: none
+}
+.linkMain:hover {
+	COLOR: Red;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.linkBold {
+	COLOR: Teal;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 10px;
+	font-weight: bold;
+	text-decoration: none
+}
+.linkBold:hover {
+	COLOR: blue;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.linkWhite {
+	COLOR: white;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 10px;
+	font-weight: bold;
+	text-decoration: none
+}
+.linkWhite:hover {
+	COLOR: white;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.linkHeader {
+	COLOR: #996633;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	font-weight: bold;
+	text-decoration: none
+}
+.linkHeader:hover {
+	COLOR: #cc6600;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	font-weight: bold;
+	text-decoration: none
+}
+
+.errorbg {
+    filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#dee8f6', startColorstr='#C7E0FE', gradientType='0');
+	font-family: Arial, Helvetica, sans-serif;
+	color :red;
+	font-size: 12px;
+	font-weight: normal;
+}
+.Outline
+{
+   font-family:Verdana;
+   font-size:small;
+   font-style:normal;
+   color:Blue;
+   text-decoration:none;
+   }
+  .Outline a
+  {
+    font-family:Verdana;
+   font-size:small;
+   font-style:normal;
+   color:Blue;
+   text-decoration:none;
+  }
+  .Outline a:hover
+  {
+   font-family:Verdana;
+   font-size:small;
+   font-style:normal;
+   color:White;
+   background-color:#6491d7;
+   outline-width:thick;
+   outline-color:Blue;
+   outline-style:solid;
+   text-decoration:none;
+  }
+  
+#color 
+   {
+	background-color:#3399cc;
+	text-decoration:none;
+    }
+    
+    
+#td-color 
+   {
+	background-color:#3399cc;
+	text-decoration:none;
+    }

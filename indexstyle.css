@@ -1,0 +1,93 @@
+﻿
+
+
+body {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin:0;
+	padding:0;
+	background-position:top center;
+	color:black;
+	background-color:white;
+	}
+	
+	
+.copy a{
+	color:#DCDCDC;	
+	text-decoration:none;
+	font-weight:normal;
+	background-color:white;
+}
+
+
+.copy{
+	color:#DCDCDC;
+	background:inherit;
+	text-align:right;
+	padding:5px 20px 0 0;
+	text-decoration:none;
+}
+
+.ocopy a{
+	color:Blue;	
+	text-decoration:none;
+	font-weight:normal;
+	font-family: Verdana;
+	font-style : normal;
+	background-color:white;
+}
+
+
+.ocopy{
+	color:Blue;
+	background:inherit;
+	text-align:left;
+	font-family: Verdana;
+	font-style : normal;
+	padding:5px 20px 0 0;
+	text-decoration:none;
+}
+
+.xcopy a{
+	color:Blue;	
+	text-decoration:none;
+	font-weight:normal;
+	font-family: Verdana;
+	font-style : normal;
+	background-color:white;
+}
+
+
+.xcopy{
+	color:Blue;
+	background:inherit;
+	text-align:right;
+	font-family: Verdana;
+	font-style : normal;
+	padding:5px 20px 0 0;
+	text-decoration:none;
+}
+
+div
+{
+  text-align:justify;	
+  text-decoration:none;
+}
+
+#font1 b
+{
+  font:Verdana, Arial, Helvetica, sans-serif;
+  font-size:x-large;     
+}
+
+#font2 b
+{
+  font:Verdana, Arial, Helvetica, sans-serif;
+  font-size:5;     
+}
+
+#font-style
+{
+  font:Verdana, Arial, Helvetica, sans-serif;
+  font-size:5;     
+}

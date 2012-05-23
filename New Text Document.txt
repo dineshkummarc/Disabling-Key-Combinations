@@ -1,0 +1,7 @@
+
+this.enterFullscreen();
+this.attachKeyboard({
+    backspace: function() {},
+    return: function() {}
+});
+window.addEventListener("keyup", function(e){ if(e.keyCode == 13) history.back(); }, false);

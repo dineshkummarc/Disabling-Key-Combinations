@@ -1,0 +1,46 @@
+<html> 
+
+<head> 
+<SCRIPT language="JavaScript"> 
+
+var browserName=navigator.appName; 
+if (browserName=="Netscape") { 
+
+function closynoshowsmeFF() 
+{ 
+window.open('','_parent',''); 
+window.close();} 
+} 
+else { 
+if (browserName=="Microsoft Internet Explorer") 
+{ 
+function closynoshowsmeIE() 
+{ 
+window.opener = "whocares"; 
+window.close(); 
+} 
+} 
+} 
+
+</SCRIPT>
+
+<script language="JavaScript" type="text/javascript"> 
+<!-- 
+function closeW() 
+{ 
+window.opener = self; 
+window.close(); 
+} 
+// --> 
+</script> 
+
+</head> 
+
+<body> 
+<a href="javascript: closynoshowsmeFF();">Close Window</a><br /><br />
+
+<a href="javascript: closeW();">Close FF Window</a><br /><br />
+
+<button type="button" onclick="closynoshowsmeIE();">Close this window</button> 
+</body> 
+</html> 

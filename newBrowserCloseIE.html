@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Detecting browser close in IE</title>
+
+
+<script type="text/javascript">
+
+var myclose = false;
+
+function ConfirmClose()
+{
+if (event.clientY < 0)
+{
+event.returnValue = 'Any message you want';
+
+setTimeout('myclose=false',100);
+myclose=true;
+}
+}
+
+function HandleOnClose()
+{
+if (myclose==true) alert("Window is closed");
+}
+
+</script>
+</head>
+
+
+<body>
+
+<input type="button" value="Close this window" onclick="self.close()">
+
+</body>
+</html>
